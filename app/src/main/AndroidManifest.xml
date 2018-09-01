@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mada.ceritakeluargarasulullah">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".rasulullah" />
+        <activity android:name=".abdullah" />
+        <activity android:name=".sitiaminah" />
+        <activity android:name=".khadijah" />
+        <activity android:name=".fatimah" />
+        <activity android:name=".abdulmuthalib" />
+        <activity android:name=".abuthalib" />
+        <activity android:name=".zainab" />
+        <activity android:name=".ummu">
+
+        </activity>
+        <activity android:name=".splashscreen"> <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+    </application>
+
+</manifest>

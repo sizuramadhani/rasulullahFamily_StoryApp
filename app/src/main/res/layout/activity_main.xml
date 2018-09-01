@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="com.mada.ceritakeluargarasulullah.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_above="@+id/rasul"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rasulullah Shallallahu Alaihi Wasallam"
+        android:gravity="center"
+        android:background="#FFAB91"
+        android:textSize="15dp"
+        android:id="@+id/rasul"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abdullah Radhiyallahu Anhu"
+        android:layout_below="@id/rasul"
+        android:textSize="15dp"
+        android:background="#FFAB91"
+        android:layout_marginTop="10dp"
+        android:id="@+id/abdullah"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/abdullah"
+            android:text="Siti Aminah Radhiyallahu Anha"
+            android:background="#FFAB91"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/siti"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khadijah Radhiyallahu Anha"
+        android:layout_below="@id/siti"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:background="#FFAB91"
+        android:layout_marginTop="10dp"
+        android:id="@+id/khadijah" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fatimah Radhiyallahu Anha"
+        android:layout_below="@id/khadijah"
+        android:background="#FFAB91"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/fatimah"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abdul Muthalib Radhiyallahu Anhu"
+        android:layout_below="@id/fatimah"
+        android:background="#FFAB91"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/abdul"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abdul"
+        android:text="Abu Thalib Radhiyallahu Anha"
+        android:background="#FFAB91"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/abu"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abu"
+        android:text="Zainab Ruqayyah Radhiyallahu"
+        android:background="#FFAB91"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/zainab"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zainab"
+        android:text="Ummu Kultsum Radhiyallahu Anhu"
+        android:background="#FFAB91"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ummu"/>
+    </RelativeLayout>
+</ScrollView>
